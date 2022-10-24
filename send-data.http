@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/kafka/send
+Content-Type: application/json
+
+{
+    "topic": "test.data",
+    "data": "Hello Evgenii"
+}
+
+
+###
+GET http://127.0.0.1:8000/
